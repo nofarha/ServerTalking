@@ -1,0 +1,5 @@
+Option a: The first option is probably faster. That is because asking for requests from the server will take more time than 
+reading it from the SP.
+
+Option b: Reading the token each time from the server makes sure the current token is up-to-date, and incase someone tried
+to cause problems it is probably more difficult to deal with the server than with the program itself.
